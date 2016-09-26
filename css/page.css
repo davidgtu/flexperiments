@@ -9,7 +9,16 @@ body {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.container {
+
+h2 {
+  color: #000;
+  margin: 10px;
+}
+
+.container-one,
+.container-two,
+.container-three,
+.container-four {
 	padding: 10px;
 	background: #fff;
   border-radius: 5px;

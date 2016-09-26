@@ -1,0 +1,19 @@
+.container-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-three {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-four {
+  display: flex;
+  flex-direction: column-reverse;
+}
