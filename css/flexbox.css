@@ -1,19 +1,25 @@
 .container-one {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .container-two {
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .container-three {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  height: 280px;
 }
 
 .container-four {
   display: flex;
   flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
 }
