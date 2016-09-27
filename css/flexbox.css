@@ -3,6 +3,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;;
+  height: 450px;
+  align-items: center;
 }
 
 .container-two {
@@ -25,6 +27,20 @@
   flex-wrap: wrap-reverse;
 }
 
+.container-five {
+  display: flex;
+}
+
+.container-six {
+  display: flex;
+  min-height: 50vh;
+  justify-content: center;
+}
+
+.container-six .item {
+  align-self: center;
+}
+
 .container-one .item-5 {
   order: -1;
   /*orders will always have a default val of 0*/
@@ -33,4 +49,9 @@
 
 .item {
   flex-grow: 1;
+  flex-basis: 100px;
+}
+
+.container-five .item-1 {
+  flex-grow: 2;
 }
