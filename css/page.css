@@ -18,7 +18,9 @@ h2 {
 .container-one,
 .container-two,
 .container-three,
-.container-four {
+.container-four,
+.container-five,
+.container-six {
 	padding: 10px;
 	background: #fff;
   border-radius: 5px;
